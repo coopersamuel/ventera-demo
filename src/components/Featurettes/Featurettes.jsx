@@ -6,7 +6,7 @@ const Featurettes = () => {
     <section className="row justify-content-center pt-5">
       <div className="col-8">
         <div className="divider-line w-100 my-5" />
-        <div className="row align-items-center py-5">
+        <div className="row justify-content-center align-items-center py-5">
           <div className="col-md-12 col-lg-7">
             <div>
               <div className="featurette-heading">
@@ -20,13 +20,13 @@ const Featurettes = () => {
               </p>
             </div>
           </div>
-          <div className="col-md-12 col-lg-5">
+          <div className="col-md-12 col-lg-5 text-center">
             <img src="holder.js/500x500" className="img-fluid" />
           </div>
         </div>
         <div className="divider-line w-100 my-5" />
         <div className="row align-items-center py-5">
-          <div className="col-md-12 col-lg-5 reverse">
+          <div className="col-md-12 col-lg-5 reverse text-center">
             <img src="holder.js/500x500" className="img-fluid" />
           </div>
           <div className="col-md-12 col-lg-7">
@@ -58,7 +58,7 @@ const Featurettes = () => {
               </p>
             </div>
           </div>
-          <div className="col-md-12 col-lg-5">
+          <div className="col-md-12 col-lg-5 text-center">
             <img src="holder.js/500x500" className="img-fluid" />
           </div>
         </div>
