@@ -1,0 +1,13 @@
+.tile-container {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  color: #777777;
+}
+
+.circle {
+  background-color: #777777;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}

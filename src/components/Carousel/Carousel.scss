@@ -1,0 +1,16 @@
+.carousel-content-container {
+  background-color: #777777;
+  height: 400px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+.carousel-content {
+  position: absolute;
+  bottom: 30px;
+}

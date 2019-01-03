@@ -1,0 +1,48 @@
+@import '~bootstrap/scss/bootstrap';
+
+.divider-line {
+  border-top: 1px solid #f3f3f3;
+}
+
+.placeholder-image {
+  width: 500px;
+  height: 500px;
+  background-color: #eeeeee;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.placeholder-text {
+  color: #a9a9a9;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.featurette-heading {
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 50px;
+
+  .highlight {
+    color: #6d757c;
+  }
+}
+
+.featurette-text {
+  font-size: 18px;
+  color: #6d757c;
+}
+
+@include media-breakpoint-up(xs) {
+  .reverse {
+    order: 1;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .reverse {
+    order: 0;
+  }
+}
